@@ -1,4 +1,4 @@
-##CodeBook.md##
+##CodeBook.md
 ###run_analysis.R <br>
 1. creates results folder if it does not exist <br>
 2. create function that takes file as input and converts to data frame <br>
@@ -20,7 +20,7 @@
 12. saves the tidy dataset into tidy_dataset.csv <br>
 <br>
 
-mean_and_std.csv<br>
+###mean_and_std.csv<br>
 contains 10300 rows and 82 columns in csv format <br>
 columns: <br>
  <br>
@@ -106,10 +106,10 @@ fBodyBodyGyroMag.meanFreq..
 fBodyBodyGyroJerkMag.mean..
 fBodyBodyGyroJerkMag.meanFreq..
 
-tidy_dataset.csv.csv
-contains 181 rows and 82 columns in csv format
+##tidy_dataset.csv <br>
+contains 181 rows and 82 columns in csv format <br>
 
-columns:
+columns:<br>
 
 id
 activity
